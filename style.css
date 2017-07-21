@@ -7,27 +7,47 @@
 }
 #overview{
     color:lightpink;
+    font-family:cursive;
 }
 #problem{
     color:lightpink;
+    font-family:cursive;
 }
 #matter{
     color:lightpink;
+    font-family:cursive;
 }
 #help{
     color:lightpink;
+    font-family:cursive;
+}
+#resources{
+    font-size:10px;
+    text-align:left;
+    color:lightpink;
+    font-family:cursive;
+}
+#resources2{
+    font-size:10px;
+    color:midnightblue;
+    font-family:sans-serif;
+    text-align:left;
 }
 #overview2{
     color:midnightblue;
+    font-family:sans-serif;
 }
 #problem2{
     color:midnightblue;
+    font-family:sans-serif;
 }
 #matter2{
     color:midnightblue;
+    font-family:sans-serif;
 }
 #help2{
     color:midnightblue;
+    font-family:sans-serif;
 }
 html{
     border-color:cadetblue;
