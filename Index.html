@@ -1,0 +1,63 @@
+<!DOCTTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css"/>
+        <script>
+            function askQuestion(question, correctAnswer){
+             var tryAgain= true;
+             while(tryAgain){
+                 var userAnswer = prompt(question);
+                if(userAnswer == correctAnswer){
+                    tryAgain = false;
+                }else{
+                    tryAgain = true;
+                    alert("Try again!");
+                }
+             }
+         }       
+            function game(){
+            var userResponse = prompt("Type your name to begin");
+            var welcome = "Hello " + userResponse + ". ";
+            alert(welcome);
+            var directions = "There are 3 choices which you can answer with a lowercase a, b, or c.";
+            alert(directions);
+        askQuestion("Where are green sea turtles found? Off the shores of a. Alaska to Chile & North Carolina to Florida b. Africa c. Asia", "a");
+        askQuestion("What is the average weight of an adult green sea turtle? a. 20 lbs b. 150 lbs c. 700 lbs", "c");
+        askQuestion("What is the average size of an adult sea turtle? Up to a. 7 ft b. 5 ft c. 2 ft", "b");
+        var factColor = "Fun Fact: Did you know green sea turtles are not named after their shell, which is brown or olive. They are actually named after the greenish color of their cartilage and fat, not their shells.";
+        alert(factColor);
+        askQuestion("What do green sea turtles eat? a. Small crabs & jellyfish b. Sea sponge & sea grasses c. Sea grasses & algae", "c");
+        askQuestion("What is the population of nestion females? Between a. 85,000 to 90,000 b. 5,000 to 10,000 c. 60,000 to 65,000", "a");
+        askQuestion("How many types of green sea turtles are there? a. 1 b. 8 c. 2", "c");
+        askQuestion("What natural predators do green sea turtles have? a. Jellyfish b. Crabs & flocks of sea gulls c. Dogs", "b");
+        var factLife = "Fun Fact: The worst part of a sea turtle's life is after they hatch and trying to survive the trip from the nest to the ocean. This is because crabs, flocks of sea gulls, and dogs will attack/eat them since they are small. It is basically survival of the fittest.";
+        aler(factLife);
+        askQuestion("How long can green sea turtles hold their breath? a. 5 hrs b. 10 min c. 1 hr ", "a");
+        var niveJob = "Nice Job! Go ahead and try again if you didn't get all the questions right."
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id="MyName">Turtle Love</h1>
+        <div id="hatchlingGroup">
+        <img id="hatchling1" src="http://maxpixel.freegreatpicture.com/static/photo/1x/Beach-Baby-Sea-Turtles-Sand-Hatchlings-Water-1503461.jpg"/>
+        <img id="hatchling2" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Green_Turtle_Hatchlings_%28Chelonia_mydas%29_%287087268043%29.jpg"/>
+        <img id="hatchling3" src="https://media.defense.gov/2005/Oct/31/2000577388/-1/-1/0/051028-F-0000S-013.JPG"/>
+        </div>
+        <input id="turtleTrivia" type="button" value="Turtle Trivia" onclick="game()"/>
+        <a href="https://shellycove.com/collections/long-sleeve-womens-1?gclid=EAIaIQobChMIxt2HvsGa1QIVkzyBCh0vJwUpEAAYASAAEgL5U_D_BwE">Shelly Cove: A clothing brand supporting sea turtles</a>
+        <h2 id="overview">Overview</h2>
+        <p id="overview2">The green sea turtle is one of the largest sea creatures. Green sea turtles are found mainly in tropical and subtropical waters. Like other sea turtles, they migrate long distances between feeding grounds and the beaches from where they hatched.Most green sea turtles have an olive or brown shell with about the same colored skin. However, there is a group of green sea turtles in the Eastern Pacific with the nickname black turtle because they have dark colored shells which look almost black. Their scientific name is chelonia mydas, and were named after the the  greenish color of their cartilage and fat, not their shells.</p>
+        <h2 id="problem">The Rising Problem</h2>
+        <p id="problem2">Green sea turtles are at risk of eploition, which is worst then endangerment because of habitat loss, illegal trade, and fisheries. Most green sea turtles nest on populated beaches on or near Florida but the land they nest on has shrunk because of people enjoying the sun. Another rising problem is the noise and light coming from beach houses and hotels during nesting season. Females want to nest at a dark and quiet place on the beach but if a feamle fails to nest after multiple false crawls, she might have to result in depositing her eggs in a bad nesting sport or ultimately in the ocean. Also, hatchlings may become disoriented and wander inland because of bright lights, where they often die of dehydration or predation. Hatchlings have an innate instinct that leads them in the brightest direction, which is normally moonlight reflecting off of the ocean.</p>
+        <h2 id="matter">Why They Matter</h2>
+        <p id="matter2">Green turtles matter because they eat the sea grasses and algae which means they control and allows them to reproduce. When green turtles digest it, it is used as recycled nutrients to the many species of plants and animals that live in the sea grass ecosystem. </p>
+        <h2 id="help">How You Can Help</h2>
+        <p id="help2"> There are people in the world who earn losts of money from killing green sea turtles and digging up their eggs. However, you can help by notifying a local turtle conservation and watch groups if you see any nesting females or nest sites. During nesting season, turn off lights and keep noise low(especially at the start) at night if you are near a beach. Nesting season is from May 1st to October 31 and you should turn off all not- needed ouside lights from 9pm to 6 am.</p>
+        <div id="turtleGroup">
+        <img id="seaTurtles" src="https://upload.wikimedia.org/wikipedia/commons/4/41/Green_turtle_swimming_in_Kona_May_2010.jpg"/>
+        <img id="seaTurtles2" src="http://maxpixel.freegreatpicture.com/static/photo/1x/Animals-Turtle-Green-Sea-Turtles-Life-Sea-Animals-2159454.jpg"/>
+        <img id="seaTurtles3" src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Green_Sea_Turtle_Dec_05.JPG"/>
+        </div>
+    </body>
+</html>

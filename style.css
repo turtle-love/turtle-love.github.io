@@ -1,0 +1,65 @@
+#Myname{
+    text-align:center;
+    color:lightcoral;
+    font-family:cursive;
+    background-color:paleturquoise;
+    font-size:50px;
+}
+#overview{
+    color:lightpink;
+}
+#problem{
+    color:lightpink;
+}
+#matter{
+    color:lightpink;
+}
+#help{
+    color:lightpink;
+}
+#overview2{
+    color:midnightblue;
+}
+#problem2{
+    color:midnightblue;
+}
+#matter2{
+    color:midnightblue;
+}
+#help2{
+    color:midnightblue;
+}
+html{
+    border-color:cadetblue;
+    border-style:solid;
+    border-width:25px;
+    background-color:azure;
+}
+#hatchling1{
+    width:360px;
+}
+#hatchling2{
+    width:360px;
+}
+#hatchling3{
+    width:360px;
+}
+#hatchlingGroup{
+    display: block;
+    margin:auto;
+    text-align:center;
+}
+#seaTurtles{
+    width:400px;
+}
+#seaTurtles2{
+    width:450px;
+}
+#seaTurtles3{
+    width:447px;
+}
+#turtleGroup{
+    display: block;
+    margin:auto;
+    text-align:center;
+}
